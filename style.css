@@ -1,0 +1,45 @@
+.link {
+
+    text-align: right;
+  
+ 
+}
+
+.imgbox {
+ 
+  
+ 
+    text-align: center;
+    margin: 100px 100px 0 100px;
+}
+
+.searchbox{
+
+
+    text-align: center;
+
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    /* display: block; */
+    border: 2px rgb(128, 119, 119);
+    position: absolute;
+    bottom: 16px;
+    /* position: fixed; */
+    list-style-position: inside;
+
+}
+.about li:hover {
+
+    text-decoration: underline;
+}
+.leftli{
+    display: flex
+}
+.rightli{
+    display: flex;
+    position: absolute;
+    right: 0;
+}
